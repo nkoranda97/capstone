@@ -19,7 +19,7 @@ import pylidc as pl
 def _clean_uid(uid: str) -> str:
     return re.sub(r"[^A-Za-z0-9_.-]", "_", uid)
 
-
+# ChatGPT 5 assisted with troubleshooting this function
 def export_data(
     annotations: list[pl.Annotation],
     out_dir: str = "npy_data",

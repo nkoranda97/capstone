@@ -41,6 +41,5 @@ def show_image(csv_path: str, window: tuple[int, int]=(-1000, 400)):
             )
         )
 
-    ax.set_title(img_path.split("/")[-1])
     ax.axis("off")
     plt.show()
