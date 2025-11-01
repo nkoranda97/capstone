@@ -8,8 +8,7 @@ import configparser
 
 if not hasattr(configparser, "SafeConfigParser"):
     configparser.SafeConfigParser = configparser.ConfigParser
-import numpy as np
-
+    
 if not hasattr(np, "int"):
     np.int = int
 from skimage.feature import graycomatrix, graycoprops
