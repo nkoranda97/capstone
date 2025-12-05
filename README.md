@@ -14,3 +14,5 @@ UV was used as the package mananger. This allows for this project to be easily r
 ```bash
 uv sync
 ```
+
+Automatic formatting by ruff for consistency
