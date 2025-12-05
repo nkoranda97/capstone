@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "imageio>=2.37.0",
+    "ipympl>=0.9.8",
     "jupyter>=1.1.1",
     "numpy>=2.3.4",
     "pandas>=2.3.3",
@@ -16,4 +17,6 @@ dependencies = [
     "seaborn>=0.13.2",
     "torch>=2.9.0",
     "torchvision>=0.24.0",
+    "tqdm>=4.67.1",
+    "ultralytics>=8.3.223",
 ]

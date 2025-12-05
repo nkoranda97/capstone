@@ -14,3 +14,8 @@ data
 
 # Ruff
 .ruff_cache
+
+# Pytorch models
+*.pt
+models/
+runs/
