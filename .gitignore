@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Data
+data
+
+# Ruff
+.ruff_cache
+
+# Pytorch models
+*.pt
+models/
+runs/ 
