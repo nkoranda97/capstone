@@ -37,11 +37,11 @@ def show_random_image(
     img_dir = os.path.join(root_dir, "images", split)
     label_dir = os.path.join(root_dir, "labels", split)
 
-    img_files = [f for f in os.listdir(img_dir) if f.endswith(".png")]
+    img_files = [f for f in os.listdir(img_dir) if f.endswith(".jpg")]
 
     img_name = random.choice(img_files)
     img_path = os.path.join(img_dir, img_name)
-    label_path = os.path.join(label_dir, img_name.replace(".png", ".txt"))
+    label_path = os.path.join(label_dir, img_name.replace(".jpg", ".txt"))
 
     img = np.array(Image.open(img_path).convert("L"))
     h, w = img.shape

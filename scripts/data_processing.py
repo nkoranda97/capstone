@@ -56,7 +56,7 @@ def _process_nodules(
     pos_k_indices = set()
     bboxes_by_k = {}
 
-    nodules = scan.cluster_annotations()
+    nodules = scan.cluster_annotations(verbose=False)
 
     for nod in nodules:
         if len(nod) < 1:
