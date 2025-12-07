@@ -23,7 +23,6 @@ Gemini 5 used to help display image with bounding box and to create gather data 
 def show_random_image(
     root_dir: str,
     split: str = "train",
-    class_names: list[str] | None = None,
     seed: int | None = None,
 ):
     """
